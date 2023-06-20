@@ -56,9 +56,11 @@ The Padlock_Probe_Designer.py script designs padlock probes based on the data in
 
 To design padlock probes, run the following command:
 ```
-python Padlock_Probe_Designer.py --output-file <padlock_probes.csv>
+python Padlock_Probe_Designer.py --output-file <output_filename.csv> <input_filename.csv>
 ```
 Replace <output_filename.csv> with the desired name for the output file that will contain the designed padlock probes.
+
+Replace <input_filename.csv> with the desired name for the input file that can be in csv or fasta format.
 
 The script will generate the output file containing the designed padlock probes, along with relevant information such as melting temperatures, annealing temperatures, and arm sequences.
 
