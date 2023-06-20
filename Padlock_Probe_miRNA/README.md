@@ -24,9 +24,15 @@ pip install -r requirements.txt
 python input_data_preparation.py
 ``` 
 ```
-python Padlock_Probe_Designer.py --output-file <padlock_probes.csv>
+python Padlock_Probe_Designer.py --output-file padlock_probes.csv filtered_data.csv
 ```
-2. The CLI will utilize the provided filtered_data.csv file as input and generate Padlock Probes.
+
+The CLI will utilize the provided filtered_data.csv file as input and generate Padlock Probes.
+
+2. Run the following commands to execute the Padlock Probe Designer CLI if having fasta file as input:
+```
+python Padlock_Probe_Designer.py --output-file padlock_probes.csv input.fa
+```
 
 # Input Data Preparation
    Before designing padlock probes, the input data needs to be prepared using the input_data_preparation.py script, which performs the following tasks:
